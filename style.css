@@ -1,0 +1,161 @@
+
+body {
+    background-color: rgb(28, 69, 135);
+    h1 {
+        color: white;
+    }
+    p {
+        color: white;
+    }
+}
+
+
+
+.ap-logo {
+    position: sticky;
+    right: 200px;
+    left: 164vh;
+    bottom: 8vh;
+
+    height: 6vh;
+    width: 10vh;
+}
+
+
+.body-images {
+    height: 30vh;
+    width: 30vh;
+}
+
+.cyber-images {
+    height: 300px;
+    width: 400px;
+}
+
+
+#main-body {
+    padding: 15px;
+    a {
+        color: white;
+    }
+    h1 {
+        color: white;
+        font-size: 50px;
+    }
+    h2 {
+        color: white;
+        font-size: 40px;
+    }
+    p {
+        font-size: 25px;
+        padding-bottom: 40px;
+    }
+}
+
+#carousel-div {
+    justify-self: center;
+    color: black;
+    position: sticky;
+    a {
+        padding: 5px;
+        background-color: gold;
+        color: black;
+    }
+    img {
+        width: 70vh;
+        height: 50vh;
+    }
+    a:hover {
+        cursor: pointer;
+    }
+}
+
+#big-div {
+    display: flex;
+}
+
+.collegegrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto auto;
+    gap: 12px;
+    text-align: center;
+}
+
+.college {
+    img {
+        width: 70px;
+        height: 70px;
+    }
+}
+
+#navbar-left > a {
+    font: bold 20px "Times New Roman", serif;
+}
+
+
+
+
+#navbar-left {
+    h2 {
+        text-align: center;
+    }
+    background-color: gold;
+    height: 100vh;
+    width: 75%;
+    display: inline-block;
+    position: sticky !important;
+
+    top: 0;
+
+    a {
+        margin: 0;
+        display: flex;
+        padding: 40px;
+        text-align: center;
+        text-decoration: none;
+        color: black;
+    }
+
+    a:visited {
+        color: black;
+    }
+
+    a:hover {
+        background-color: white;
+        cursor: pointer;
+    }
+    #internal-courses {
+        text-align: center; !important
+    }
+}
+
+body {
+    margin: 0;
+}
+
+#internal-courses {
+    display: none;
+    a {
+        padding: 10px;
+        text-align: center;
+    }
+    text-align: center;
+}
+
+#burger1 {
+    font-size: 30px;
+    text-align: left;
+    border: black solid 1px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+#burger2 {
+    font-size: 30px;
+    text-align: left;
+    padding: 5px;
+    cursor: pointer;
+    display: none;
+    color: white;
+}
